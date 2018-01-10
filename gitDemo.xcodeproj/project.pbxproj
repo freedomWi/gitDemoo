@@ -13,6 +13,7 @@
 		40830B41200601780053EDEA /* gitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40830B3F200601780053EDEA /* gitDemo.xcdatamodeld */; };
 		40830B43200601780053EDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40830B42200601780053EDEA /* Assets.xcassets */; };
 		40830B46200601780053EDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40830B44200601780053EDEA /* LaunchScreen.storyboard */; };
+		40830B4E200608DE0053EDEA /* mapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40830B4D200608DE0053EDEA /* mapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		40830B42200601780053EDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40830B45200601780053EDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40830B47200601780053EDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40830B4D200608DE0053EDEA /* mapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				40830B38200601780053EDEA /* AppDelegate.swift */,
 				40830B3A200601780053EDEA /* ViewController.swift */,
+				40830B4D200608DE0053EDEA /* mapController.swift */,
 				40830B3C200601780053EDEA /* Main.storyboard */,
 				40830B42200601780053EDEA /* Assets.xcassets */,
 				40830B44200601780053EDEA /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40830B4E200608DE0053EDEA /* mapController.swift in Sources */,
 				40830B41200601780053EDEA /* gitDemo.xcdatamodeld in Sources */,
 				40830B3B200601780053EDEA /* ViewController.swift in Sources */,
 				40830B39200601780053EDEA /* AppDelegate.swift in Sources */,
